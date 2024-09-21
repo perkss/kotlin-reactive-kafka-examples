@@ -43,7 +43,7 @@ class FlowTest {
         @BeforeAll
         @JvmStatic
         internal fun beforeAll() {
-            val imageName = DockerImageName.parse("confluentinc/cp-kafka:7.5.3")
+            val imageName = DockerImageName.parse("confluentinc/cp-kafka:7.7.1")
             kafkaContainer = KafkaContainer(imageName)
             kafkaContainer.start()
             await until { kafkaContainer.isRunning }
