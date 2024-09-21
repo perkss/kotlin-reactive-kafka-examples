@@ -57,8 +57,8 @@ internal class StreamIntegrationTest @Autowired constructor(
         @BeforeAll
         @JvmStatic
         internal fun beforeAll() {
-            val kafkaImageName = DockerImageName.parse("confluentinc/cp-kafka:7.5.3")
-            val schemaRegistryImageName = DockerImageName.parse("confluentinc/cp-schema-registry:7.5.3")
+            val kafkaImageName = DockerImageName.parse("confluentinc/cp-kafka:7.7.1")
+            val schemaRegistryImageName = DockerImageName.parse("confluentinc/cp-schema-registry:7.7.1")
             kafka = KafkaContainer(kafkaImageName)
             kafka.apply {
                 withNetwork(Network.newNetwork())

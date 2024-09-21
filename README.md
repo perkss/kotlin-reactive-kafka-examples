@@ -6,6 +6,13 @@ Please check out the blog posts for more details.
 
 * [Kotlin Kafka Streams](https://perkss.github.io/#/DistributedSystems/Streaming#KafkaStreamsKotlin)
 
+## Building Locally
+As the integration tests run with docker you are required to have docker running locally. 
+
+Then simply execute the maven command you wish.
+
+`mvn clean install`
+
 ## Docker Environment
 
 Please use the docker-compose file in the root of each module project to create the Kafka Brokers and Zookeeper and
