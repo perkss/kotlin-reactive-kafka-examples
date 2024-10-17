@@ -88,7 +88,7 @@
             <dependency>
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy-all</artifactId>
-                <version>3.0.3</version>
+                <version>3.0.7</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.codehaus.groovy</groupId>
